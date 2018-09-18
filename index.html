@@ -10,6 +10,19 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+<style type="text/css">
+
+
+@media only screen and (max-width: 650px) and (min-width: 350px) 
+{
+.col-sm-6kevin {
+    width: 49%;
+    float:left;
+}
+}
+
+
+</style>
     
   </head>
   <body>
@@ -164,14 +177,19 @@
             <!-- INLINE FORM -->
 
             <form class="form-inline">
+                <!--<div class="col-sm-6kevin">-->
                 <div class="form-group">
                     <label>Email</label>
                     <input type="email" class="form-control" placeholder="Email">
                 </div>
+            <!--</div>-->
+
+            <!--<div class="col-sm-6kevin">-->
                 <div class="form-group">
                    <label>Password</label>
                    <input type="password" class="form-control" placeholder="Password">
                 </div>
+            <!--</div>-->
                 <div class="checkbox">
                     <label>
                         <input type="checkbox"> Remember me
@@ -179,8 +197,42 @@
                     <button type="submit" class="btn btn-default">Login</button>
                 </div>
             </form>
-
         </div>
+
+    <div class="container">
+        <table class="table">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr class="">
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>24</td>
+        </tr>
+        <tr class="">
+          <td>John</td>
+          <td>Doe</td>
+          <td>34</td>
+        </tr>
+        <tr>
+          <td>Stephanie</td>
+          <td>Landon</td>
+          <td>47</td>
+        </tr>
+        <tr>
+          <td>Mike</td>
+          <td>Johnson</td>
+          <td>19</td>
+        </tr>
+      </table>
+    </div>
 
     
 
